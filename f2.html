@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+  transition: background-color .5s;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="mini project.html">home</a>
+  <a href="about.html">About us</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+<div id="main">
+ 
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+   
+</body>
+<p>GO to homepage for more reviews.</p>
+
+</body>
+<style>
+.cha {
+  background-color: lightgrey;
+  width: 1100px;
+  border: 5px solid #cb2027;
+  padding: 50px;
+  margin: 20px;
+}P{TEXT-ALIGN :CENTER}
+</style>
+</head>
+<body>
+
+<h2>Review , cast and crew of movies.</h2>
+<div class="cha"> 
+<p>   Review of   <STRONG>F2</STRONG>
+<p>Venky (Venkatesh) is an orphan looking for marriage proposals and is <br>
+found suitable by Harika (Tamannaah) because she’s not looking to marry into a family.<br>
+ Varun (Varun Tej) is a carefree Telangana youth who is head-over-heels in 
+ <br>love with Harika’s sister, the multi-talented Honey (Mehreen Pirzada) <br>
+ for a whole whopping month before her family decides to get them engaged <br>
+ and married soon after. However, it’s not soon before the<br>
+ Cobras (co-brother-in-laws) decide they’re better off without the women <br>
+ in their lives and decide to flee to another country. But 
+ <br>what happens when the women decide to give them a taste of their own medicine?<br>
+
+The basic plot of the film has been done and dusted in Indian films so <br>
+many times, there’s really nothing anyone can do to make it unique. <br>
+The first half of the film seems like one long rant by<br>
+ frustrated men on how women always nag. The second half, which takes place <br>
+ in Europe, is one disjointed mess which brings in more characters, <br>
+ including Prakash Raj who plays the women’s family friend. Anil Ravipudi<br>
+ seemingly relies on the humour part of the film <br>
+ to pull it through so much; he seems to have decided to<br>
+ not invest in fleshing out any of the characters. The men are all innocent 
+ <br>victims falling prey to the nagging women they’re married to, end of story. <br>
+ Logic of course goes for a toss, which is fine seeing as how <br>the genre itself doesn’t call for much.
+<br>
+</p>
+
+<!--<h1>Movie Cast & Crew</h1>
+<div id="p"><h3><Actor: Mahesh Babu, Allari Naresh<br>
+Actress: Pooja Hegde<br>
+Director: Vamshi Paidipally<br>
+Release Date : 09 May 2019<br>
+Movie Duration : 3 hours/<h3></div>-->
+</p>
+
+
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.fa {
+  font-size: 50px;
+  cursor: pointer;
+  user-select: none;
+}#v{
+float:right;
+}
+.fa:hover {
+  color: darkblue;
+}
+</style>
+</head>
+<body>
+
+<h1>Movie Cast & Crew</h1>
+<h3>Actor: venkataesh, varun tej<br>
+Actress: Thamanna<br>
+Director: Anil ravpudi<br>
+Release Date : 09 jan 2019<br>
+Movie Duration : 3 hours</h3>
+<p style="padding-bottom:10px;"><i onclick="myFunction(this)" class="fa fa-thumbs-up"></i></p>
+
+
+<script>
+function myFunction(x) {
+  x.classList.toggle("fa-thumbs-down");
+}
+</script>
+
+<head>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h2>Follow us on..!</h2>
+
+<!-- Add font awesome icons -->
+
+
+
+<a href="https://en-gb.facebook.com/login/" class="fa fa-facebook"></a>
+<a href="https://twitter.com/login?lang=en" class="fa fa-twitter"></a>
+<a href="https://myaccount.google.com/" class="fa fa-google"></a>
+<a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+<a href="https://www.instagram.com/accounts/login/" class="fa fa-instagram"></a>
+
+</body>
+</body>
+</html>
+
+
+</div>
+</body>
+<div class="cha" style='display: flex; justify-content: center;'>
+  <a href="#">
+    <img src="maharshi.jpg" 
+onmouseover="this.src='karan.jpg'" 
+onmouseout="this.src='got.jpg'" />
+  </a>
+</div>
+
+
+
+</html>
